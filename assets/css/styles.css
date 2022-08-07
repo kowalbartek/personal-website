@@ -1063,14 +1063,6 @@ img {
         width: 270px;
     }
 
-    .home__scroll {
-        margin-top: 3rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 34rem;
-    }
-
     .about__container {
         column-gap: 5rem;
     }
@@ -1166,6 +1158,14 @@ img {
 
     .home__social {
         transform: translateX(-6rem);
+    }
+
+    .home__scroll {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 34rem;
     }
 
     .portfolio__container {
