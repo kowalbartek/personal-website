@@ -355,6 +355,7 @@ img {
     padding: 0.5rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
+    outline: none;
 }
 
 .button:hover {
@@ -369,7 +370,8 @@ img {
 
 .button--white {
     background-color: #FFF;
-    color: var(--first-color)
+    color: var(--first-color);
+    outline: none;
 }
 
 .button--white {
@@ -377,6 +379,7 @@ img {
 }
 
 .button--flex {
+    outline: none;
     padding: 0.9rem;
     display: inline-flex;
     align-items: center;
@@ -385,6 +388,7 @@ img {
 }
 
 .text-button {
+    outline: none;
     color: var(--first-color);
     padding: 0.6rem;
     font-weight: var(--font-semi-bold);
@@ -1060,12 +1064,11 @@ img {
     }
 
     .home__scroll {
-        display: block;
-    }
-
-    .home__scroll-button {
-        margin-top: 4rem;
-        margin-left: 6rem;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 34rem;
     }
 
     .about__container {
@@ -1163,11 +1166,6 @@ img {
 
     .home__social {
         transform: translateX(-6rem);
-    }
-
-    .home__scroll-button {
-        margin-top: 4rem;
-        margin-left: 25.5rem;
     }
 
     .portfolio__container {
