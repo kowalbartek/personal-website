@@ -22,6 +22,6 @@
 ✔️ Experience\
 ✔️ Portfolio\
 ✔️ Client Testimonials\
-✔️ Contact Me\
+✔️ Contact Me
 
 To view a live example, **[click here](https://kowal.agency/)**
